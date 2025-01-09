@@ -1,0 +1,5 @@
+docker build -t siyux1927/frontend:latest -f frontend.Dockerfile .
+docker build -t siyux1927/backend:latest -f backend.Dockerfile .
+docker login
+docker push siyux1927/frontend:latest
+docker push siyux1927/backend:latest

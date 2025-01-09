@@ -1,0 +1,7 @@
+[0;32mKubernetes control plane[0m is running at [0;33mhttps://127.0.0.1:6443[0m
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+NAME   STATUS   ROLES           AGE   VERSION
+vm1    Ready    control-plane   21m   v1.27.7
+vm2    Ready    control-plane   20m   v1.27.7
+vm3    Ready    <none>          20m   v1.27.7
